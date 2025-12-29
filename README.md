@@ -3,7 +3,6 @@
 A lightweight, real-time **astronomical dashboard** built using pure **HTML, CSS, and JavaScript**, designed to simulate the dynamic nature of the night sky based on time-dependent logic.
 This project focuses on **temporal simulation**, **live UI updates**, and **clean visual design**, rather than static content rendering.
 
----
 
 ##  Project Motivation
 
@@ -12,7 +11,6 @@ This project was built to explore how **time-aware logic** and **real-time updat
 
 The result is a **digital observatory** that mimics professional astronomy dashboards in a simplified, browser-friendly form.
 
----
 
 ## Architecture & Development Approach
 
@@ -34,7 +32,6 @@ Each object includes attributes such as:
 
 This demonstrates how heterogeneous scientific data can be handled cleanly in a frontend system.
 
----
 
 ### 2️ Temporal Simulation Engine
 
@@ -48,7 +45,6 @@ The system uses the JavaScript `Date()` API to determine the current sky state.
 
 This simulates Earth’s rotation and observer-based sky changes.
 
----
 
 ### 3️ Real-Time Updates
 
@@ -60,7 +56,6 @@ A `setInterval()` loop runs every **1000 milliseconds**, acting as a heartbeat f
 
 This creates the illusion of **live observational data**, similar to professional tracking tools.
 
----
 
 ### 4️ UI / UX Philosophy
 
@@ -73,7 +68,6 @@ The interface follows a **Glassmorphism-inspired design**, optimized for clarity
 
 The goal was not decoration—but **information-first design**.
 
----
 
 ##  Tech Stack
 
@@ -86,7 +80,6 @@ The goal was not decoration—but **information-first design**.
   * Twinkling star background
   * Pulsing visibility indicators
 
----
 
 ### JavaScript (Core Logic Engine)
 
@@ -96,7 +89,6 @@ The goal was not decoration—but **information-first design**.
 
 No frameworks. No abstractions. Just raw logic.
 
----
 
 ### Icons & Typography
 
@@ -106,7 +98,6 @@ No frameworks. No abstractions. Just raw logic.
   * **Space Grotesk** – Futuristic, technical headings
   * **Inter** – High readability for data-heavy content
 
----
 
 ##  Project Structure
 
@@ -118,9 +109,6 @@ No frameworks. No abstractions. Just raw logic.
 └── README.md     # Project documentation
 ```
 
-Simple structure. Easy to understand. Easy to extend.
-
----
 
 ## Key Features & Capabilities
 
@@ -131,14 +119,11 @@ Simple structure. Easy to understand. Easy to extend.
 *  Modern, glassmorphic UI design
 *  Simulated irregular scientific data behavior
 
----
 
-## Future Enhancements (Optional)
+## Future Enhancements
 
 * Observer location (latitude/longitude) support
 * Real astronomical APIs integration
 * Day/Night sky transition animations
 * Modular data source separation
 * Conversion into a React/Vue component
-
----
